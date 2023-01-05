@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(166,0,102);
+    background: radial-gradient(circle, rgba(166,0,102,1) 0%, rgba(0,0,0,1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Righteous', cursive;
+    display: flex;
+    gap: 1rem;
+}
+
+.body-azul {
+    background-color: #7fffd4;
+}
+
+.calculadora {
+    background-color: #5c172655;
+    padding: 1rem 1.5rem;
+    border-radius: 25px;
+    margin-top: 2rem;
+    box-shadow: 1px 1px 1px rgba(251, 122, 201, 0.27);
+}
+
+.tela-calculadora {
+    background-color: rgba(148, 52, 111, 15);
+    width: 100%;
+    height: 80px;
+    border-radius: 15px;
+    padding: 1rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.botoes-numeros {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+}
+
+.botoes-operacao-superior {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 1rem;
+}
+
+.lista-botoes-operacao {
+    margin: 1rem 0;
+}
+
+.item-botoes-operacao {
+    margin-right: .5rem;
+}
+
+.lista-botoes-numeros, .lista-botoes-operacao {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.item-botoes-numeros {
+    margin-right: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.item-botoes-numeros.nulo {
+    visibility: hidden;
+}
+
+.input-numero {
+    border-radius: 25px;
+    background-color: #C073A2;
+    border: 1px solid  #FF009C;
+    box-shadow: 0px 4px 4px rgba(255, 0, 156, 0.27);
+    padding: 1.5rem;
+    color: #39052B;
+    transition: all .5s;
+    font-family: 'Righteous', cursive;
+}
+
+.input-operacao, .input-limpar {
+    border-radius: 25px;
+    background-color: #590e3c;
+    border: 1px solid #FF009C;
+    box-shadow: 0px 4px 4px rgba(255, 0, 156, 0.27);
+    width: 5rem;
+    height: 4rem;
+    color: #E3A7D2;
+    font-family: 'Righteous', cursive;
+    transition: all .5s;
+}
+
+.input-numero:hover, .input-operacao:hover, .input-limpar:hover {
+    cursor: pointer;
+    background-color: #f26dbf49;
+}
+
+
+.botao-azul, .botao-rosa {
+    background: none;
+    outline: none;
+    border: none;
+}
+
+.botoes-cor {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
