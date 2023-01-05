@@ -9,35 +9,28 @@
 
 </br>
 
-
 ## Design do Projeto 🎨
 
 <p>👀 Você pode visualizar o design diretamente no <a href="https://www.figma.com/file/AnlxQLOBC5hm6vf43Y8svw/calculadora?node-id=0%3A1&t=3bd3PMksj8uQgrdW-1">Figma do projeto</a></p>
 
-
 </br>
-
 
 ## Status do Projeto 💻
 <h4 style="text-align: center"> 🚧✅ Completo 🚧✅ </h4>
 
-
 </br>
 
-
 ## Demonstração 👩‍💻
-<p> Você pode conferir a ladding page agora mesmo <a href="https://raphaelaferraz.github.io/calculadora/">clicando aqui 💜</a>
+<p> Você pode conferir a ladding page agora mesmo <a href="https://raphaelaferraz.github.io/calculadora/">clicando aqui 💜</a></p>
 
-</br></br>
+</br>
 
 ## Tecnologias 👩‍💻
 - [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript) 
 - [HTML5](https://developer.mozilla.org/en-US/docs/Glossary/HTML5)
 - [CSS3](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 
-
 </br>
-
 
 ## Desenvolvedora 💻
  <a href="https://www.linkedin.com/in/raphaela-guiland-ferraz-32a980214">
